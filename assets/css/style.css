@@ -6,11 +6,11 @@ body{
 color: #777777;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 font-size: 18px;
-background-image:url('../images/brickwall_@2X.png');
+background-image:url('../images/retina_wood_@2X.png');
 }
 
-header{
-    position: realtive;
+.col-md-12{
+    position: relative;
     background: #ffffff;
     height: 90px;
     width: 100%;
@@ -20,47 +20,45 @@ header{
     border-bottom-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
- }
+    margin-bottom: 30px;
+}
 
-/*top-nav div centers header elements and aligns with container*/
-.top-nav{
-    position: relative;
-    max-width: 960px;
-    margin-right: auto;
+header{
+    width: 960px;
     margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
-    padding: 25px;
-    position: absolute;
-    margin-top: 0;
-    left: 0px;
     background: #4aaaa5;
-    height: 88px;
     width: 350px;
+    height: 88px;
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     text-align: center;
+    line-height: 90px;
+    float: left;
 }
 
 ul {
+    float: right;
     list-style-type: none;
     color: #efefef;
-    display: block;
+    display: inline-block;
     overflow: hidden;
     font-size: 18px;
     margin-right: -20px;
 }
 
 li {
-    float: right;
+    float: left;
+    line-height: 90px;
 }
 
 li a {
     padding-left: 20px;
     padding-right: 20px;
-    line-height: 90px;
     color: #999999;
     text-decoration: none;
 }
@@ -69,184 +67,56 @@ li a:hover{
     color: #4aaaa5;
 }
 
-span{
-    display: none;
-}
-
-.wrapper{
-    position: relative;
-    width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.container{
-    float: left;
-    position: absolute;
-    padding: 30px;
-    background: #ffffff;
-    width: 960px;
-    overflow: hidden;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     color: #4aaaa5;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
+}    
 
 #hzrule{
     background-color: #dddddd;
     height: 3px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#profilepic{
+.container{
+    padding: 30px;
+    background: #ffffff;
+    width: 960px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+#mypic{
     float: left;
-    margin-right: 35px;
-    margin-bottom: 20px;
-    margin-top: 10px;
     width: 210px;
+    margin: 10px 30px 30px 0px;
 }
 
 p{
-line-height: 1.8;
-font-weight: 100;
+    line-height: 150%;
 }
 
-/*ID elements on porfolio.html page only*/
-#print{
-    position: relative;
-    background-image:url('../images/printpic.jpg');
-    width: 275px;
-    height: 205px;
-    margin: 20px;
-    float: left;
-}
-
-#print-title{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    padding: 18px;
-    background: #4aaaa5;
-    color: white;
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-#print:hover{
-    opacity: 0.4;
-}
-
-#web{
-    position: relative;
-    background-image:url('../images/webdesign.jpg');
-    width: 275px;
-    height: 205px;
-    margin: 20px;
-    float: left;
-}
-
-#web:hover{
-    opacity: 0.4;
-}
-
-#web-title{
-    position: absolute;
-    bottom: 10px;
     width: 100%;
-    padding: 18px;
-    background: #4aaaa5;
+    font-size: 12px;
+    line-height: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 6px;
 
-#apps{
-    clear: both;
-    position: relative;
-    background-image:url('../images/appphone.jpg');
-    width: 275px;
-    height: 205px;
-    margin: 20px;
-    float: left;
-}
-
-#apps-title{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    padding: 18px;
-    background: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-#apps:hover{
-    opacity: 0.4;
-}
-
-#game{
-    position: relative;
-    background-image:url('../images/gamepic.jpg');
-    width: 275px;
-    height: 205px;
-    margin: 20px;
-    float: left;
-}
-
-#game-title{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    padding: 18px;
-    background: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-#game:hover{
-    opacity: 0.4;
-}
-
-#misc{
-    clear: both;
-    position: relative;
-    background-image:url('../images/miscpic.jpg');
-    width: 275px;
-    height: 205px;
-    margin: 20px;
-    float: left;
-}
-
-#misc-title{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    padding: 18px;
-    background: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-#misc:hover{
-    opacity: 0.4;
 }
 
 /*input and text area elements on contact.html page only*/
@@ -287,109 +157,262 @@ input[type=button]:active{
     background-color: #666666;
 }
 
-footer{
-    background-color: #666666;
-    padding-top: 40px;
-    position: fixed;
-    padding-bottom: 10px;
-    text-align: center;
+/*ID elements on porfolio.html page only*/
+#print{
+    position: relative;
+    background-image:url('../images/printpic.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    margin-left: 0;
+    margin-top: 5px;
+    float: left;
+}
+
+.div-title{
+    position: absolute;
+    bottom: 10px;
     width: 100%;
-    font-size: 12px;
+    padding: 18px;
+    background: #4aaaa5;
     color: white;
-    margin: 0px;
-    left: 0px;
-    bottom: 0px;
-    border-top-style: solid;
-    border-top-color: #4aaaa5;
-    border-top-width: 8px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#print:hover{
+    opacity: 0.4;
+}
+
+#web{
+    position: relative;
+    background-image:url('../images/webdesign.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    margin-top: 5px;
+    float: left;
+}
+
+#web:hover{
+    opacity: 0.4;
+}
+
+#apps{
+    clear: both;
+    position: relative;
+    background-image:url('../images/appphone.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    margin-left: 0;
+    float: left;
+}
+
+#apps:hover{
+    opacity: 0.4;
+}
+
+#game{
+    position: relative;
+    background-image:url('../images/gamepic.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    float: left;
+}
+
+#game:hover{
+    opacity: 0.4;
+}
+
+#misc{
+    clear: both;
+    position: relative;
+    background-image:url('../images/miscpic.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    margin-left: 0;
+    float: left;
+}
+
+#misc:hover{
+    opacity: 0.4;
 }
 
 @media screen and (max-width: 980px){
-    .top-nav {
+    header{
         position: static;
-        max-width: 650px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    ul{
+        margin-right: 10px;
     }
     
     .container{
-        width: 650px;
-        margin-left: 30px;
+        width: 100%;
+        max-width: 600px;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 100px;
     }
 
-    .wrapper{
+    h1{
+        margin-left: 50px;
+    }
+
+    #print{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #web{
+        position: relative;
+        float: right;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #apps{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #game{
+        position: relative;
+        float: right;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #misc{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        position: static;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .nav {
+        margin-right: 5px;
+    }
+    
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 100px;
+    }  
+
+    #mypic{
+        width: 50%;
+    }
+
+    h1{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px){
+    header{
+        position: static;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
 
-    h1{
-        margin-left: 30px;
+    .nav{
+        height: 60px;
+        width: 100%;
     }
-}
 
-@media screen and (max-width: 768px){
-    .top-nav {
-        max-width: 650px;;
+    ul {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 60px;
+        text-align: center;
     }
+
+    li{
+        line-height: 60px;
+        float: none;
+        display: inline;
+    }
+
+
+    h1{
+        position: relative;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-md-12{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+    }  
 
     .container{
-        width: 650px;    
-    }
-}
-
-@media screen and (max-width: 640px){
-    ul {
-        display: none;
+        position: relative;
+        width: 95%;
+        margin-bottom: 100px;
     }
 
-    .wrapper{
-        clear: both;
+    #mypic{
         width: 100%;
     }
 
-    span{
-        color: #efefef;
-        display: block;
-        text-align: center;
-        font-size: 18px;
-        line-height: 60px;
-
-    }
-
-    span a{
-        padding-left: 20px;
-        padding-right: 20px;
-        color: #999999;
-        text-decoration: none;
-    }
-    
-    h1{
-        width: 100%;
+    #print{
+        position: relative;
         float: none;
-        position: static;
+        width: 100%;
     }
-    
-    header{
-        position: static;
-        height: 150px;
-    }
-    
-    .top-nav{
+
+    #web{
+        position: relative;
         float: left;
         width: 100%;
+        margin-left: 0;
+        margin-bottom: 25px;
     }
 
-    .container{
+    #apps{
+        position: relative;
+        float: none;
         width: 100%;
-        border-right-width: 0px;
-        border-left-width: 0px;
+        margin-bottom: 5px;
     }
 
-    #profilepic{
+    #game{
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    #misc{
+        position: relative;
+        float: none;
         width: 100%;
     }
-
-    footer{
-        position: fixed;
-        bottom: 0;
-    }
-}
+} 
