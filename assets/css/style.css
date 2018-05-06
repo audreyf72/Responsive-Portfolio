@@ -87,6 +87,7 @@ h2{
     overflow: hidden;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 100px;
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
@@ -158,6 +159,7 @@ input[type=button]:active{
 }
 
 /*ID elements on porfolio.html page only*/
+
 #print{
     position: relative;
     background-image:url('../images/printpic.jpg');
@@ -167,6 +169,11 @@ input[type=button]:active{
     margin-left: 0;
     margin-top: 5px;
     float: left;
+}
+
+#print a{
+    text-decoration: none;
+    color: white;
 }
 
 .div-title{
