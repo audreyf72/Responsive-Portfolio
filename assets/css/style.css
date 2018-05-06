@@ -163,6 +163,8 @@ input[type=button]:active{
 #print{
     position: relative;
     background-image:url('../images/printpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
     width: 275px;
     height: 205px;
     margin: 20px;
@@ -194,7 +196,9 @@ input[type=button]:active{
 
 #web{
     position: relative;
-    background-image:url('../images/webdesign.jpg');
+    background-image:url('../images/RPGimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
     width: 275px;
     height: 205px;
     margin: 20px;
@@ -209,7 +213,9 @@ input[type=button]:active{
 #apps{
     clear: both;
     position: relative;
-    background-image:url('../images/appphone.jpg');
+    background-image:url('../images/wordguess.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
     width: 275px;
     height: 205px;
     margin: 20px;
@@ -223,7 +229,9 @@ input[type=button]:active{
 
 #game{
     position: relative;
-    background-image:url('../images/gamepic.jpg');
+    background-image:url('../images/image9_350x350.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
     width: 275px;
     height: 205px;
     margin: 20px;
@@ -237,7 +245,9 @@ input[type=button]:active{
 #misc{
     clear: both;
     position: relative;
-    background-image:url('../images/miscpic.jpg');
+    background-image:url('../images/rpsimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
     width: 275px;
     height: 205px;
     margin: 20px;
