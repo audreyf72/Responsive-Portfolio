@@ -206,6 +206,11 @@ input[type=button]:active{
     float: left;
 }
 
+#web a{
+    text-decoration: none;
+    color: white;
+}
+
 #web:hover{
     opacity: 0.4;
 }
