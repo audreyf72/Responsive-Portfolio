@@ -178,7 +178,7 @@ input[type=button]:active{
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: top;
-    width: 45%;
+    width: 46%;
     height: 205px;
     margin: 20px;
     margin-left: 0;
@@ -196,7 +196,7 @@ input[type=button]:active{
     position: absolute;
     bottom: 0px;
     width: 100%;
-    padding: 18px;
+    padding: 20px;
     background-color: rgba(1, 177, 174, 0.8);
     color: white;
     text-align: center;
@@ -213,7 +213,7 @@ input[type=button]:active{
     background-image:url('../images/crystalsgame.png');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 45%;
+    width: 46%;
     height: 205px;
     margin: 20px;
     margin-top: 5px;
@@ -236,7 +236,7 @@ input[type=button]:active{
     background-image:url('../images/trivia.png');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 45%;
+    width: 46%;
     height: 205px;
     margin: 20px;
     margin-left: 0;
@@ -253,7 +253,7 @@ input[type=button]:active{
     background-image:url('../images/image9_350x350.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 45%;
+    width: 46%;
     height: 205px;
     margin: 20px;
     float: left;
@@ -271,7 +271,7 @@ input[type=button]:active{
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    width: 45%;
+    width: 46%;
     height: 205px;
     margin: 20px;
     margin-left: 0;
@@ -289,7 +289,7 @@ input[type=button]:active{
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    width: 45%;
+    width: 46%;
     height: 205px;
     margin: 20px;
     float: left;
