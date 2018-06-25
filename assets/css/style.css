@@ -45,7 +45,6 @@ ul {
     float: right;
     list-style-type: none;
     color: #efefef;
-    display: inline-block;
     overflow: hidden;
     font-size: 18px;
     margin-right: -20px;
