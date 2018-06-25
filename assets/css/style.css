@@ -73,6 +73,18 @@ h2{
     color: #4aaaa5;
 }    
 
+.backContainer{
+    position: fixed;
+    top: 89;
+    right: 0;
+    width: 100%;
+    z-index: 0;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: right;
+}
 #hzrule{
     background-color: #dddddd;
     height: 3px;
