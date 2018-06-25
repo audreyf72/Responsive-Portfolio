@@ -389,6 +389,13 @@ input[type=button]:active{
         width: 250px;
         margin-right: 0;
     }
+
+    #figgit{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -506,6 +513,12 @@ input[type=button]:active{
     }
 
     #train{
+        position: relative;
+        float: none;
+        width: 100%;
+    }
+
+    #figgit{
         position: relative;
         float: none;
         width: 100%;
