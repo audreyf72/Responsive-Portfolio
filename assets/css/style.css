@@ -160,20 +160,22 @@ input[type=button]:active{
 
 /*ID elements on porfolio.html page only*/
 
-#print{
+#wordguess{
     position: relative;
     background-image:url('../images/printpic.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 275px;
+    background-position: top;
+    width: 45%;
     height: 205px;
     margin: 20px;
     margin-left: 0;
     margin-top: 5px;
     float: left;
+    border: #4aaaa5 2px solid;
 }
 
-#print a{
+#wordguess a{
     text-decoration: none;
     color: white;
 }
@@ -190,77 +192,99 @@ input[type=button]:active{
     font-size: 24px;
 }
 
-#print:hover{
+#wordguess:hover{
     opacity: 0.4;
 }
 
-#web{
+#crystal{
     position: relative;
     background-image:url('../images/crystalsgame.png');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 275px;
+    width: 45%;
     height: 205px;
     margin: 20px;
     margin-top: 5px;
     float: left;
+    border: #4aaaa5 2px solid;
 }
 
-#web a{
+#crystal a{
     text-decoration: none;
     color: white;
 }
 
-#web:hover{
+#crystal:hover{
     opacity: 0.4;
 }
 
-#apps{
+#trivia{
     clear: both;
     position: relative;
     background-image:url('../images/trivia.png');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 275px;
+    width: 45%;
     height: 205px;
     margin: 20px;
     margin-left: 0;
     float: left;
+    border: #4aaaa5 2px solid;
 }
 
-#apps:hover{
+#trivia:hover{
     opacity: 0.4;
 }
 
-#game{
+#gifsearch{
     position: relative;
     background-image:url('../images/image9_350x350.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 275px;
+    width: 45%;
     height: 205px;
     margin: 20px;
     float: left;
+    border: #4aaaa5 2px solid;
 }
 
-#game:hover{
+#gifsearch:hover{
     opacity: 0.4;
 }
 
-#misc{
+#rpsgame{
     clear: both;
     position: relative;
-    background-image:url('../images/rpsimage.jpg');
+    background-image:url('../images/rpsimage.png');
     background-repeat: no-repeat;
     background-size: cover; 
-    width: 275px;
+    background-position: center;
+    width: 45%;
     height: 205px;
     margin: 20px;
     margin-left: 0;
     float: left;
+    border: #4aaaa5 2px solid;
 }
 
-#misc:hover{
+#rpsgame:hover{
+    opacity: 0.4;
+}
+
+#train{
+    position: relative;
+    background-image:url('../images/train.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width: 45%;
+    height: 205px;
+    margin: 20px;
+    float: left;
+    border: #4aaaa5 2px solid;
+}
+
+#train:hover{
     opacity: 0.4;
 }
 
@@ -288,35 +312,42 @@ input[type=button]:active{
         margin-left: 50px;
     }
 
-    #print{
+    #wordguess{
         position: relative;
         float: left;
         width: 250px;
         margin-right: 0;
     }
 
-    #web{
+    #crystal{
         position: relative;
         float: right;
         width: 250px;
         margin-right: 0;
     }
 
-    #apps{
+    #trivia{
         position: relative;
         float: left;
         width: 250px;
         margin-right: 0;
     }
 
-    #game{
+    #gifsearch{
         position: relative;
         float: right;
         width: 250px;
         margin-right: 0;
     }
 
-    #misc{
+    #rpsgame{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #train{
         position: relative;
         float: left;
         width: 250px;
@@ -403,13 +434,13 @@ input[type=button]:active{
         width: 100%;
     }
 
-    #print{
+    #wordguess{
         position: relative;
         float: none;
         width: 100%;
     }
 
-    #web{
+    #crystal{
         position: relative;
         float: left;
         width: 100%;
@@ -417,14 +448,14 @@ input[type=button]:active{
         margin-bottom: 25px;
     }
 
-    #apps{
+    #trivia{
         position: relative;
         float: none;
         width: 100%;
         margin-bottom: 5px;
     }
 
-    #game{
+    #gifsearch{
         position: relative;
         float: left;
         width: 100%;
@@ -432,7 +463,13 @@ input[type=button]:active{
         margin-bottom: 25px;
     }
 
-    #misc{
+    #rpsgame{
+        position: relative;
+        float: none;
+        width: 100%;
+    }
+
+    #train{
         position: relative;
         float: none;
         width: 100%;
