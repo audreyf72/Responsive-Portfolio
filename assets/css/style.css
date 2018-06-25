@@ -10,20 +10,20 @@ background-image:url('../images/background2.png'), url('../images/retina_wood_@2
 background-repeat: no-repeat, repeat;
 background-size: 100%, auto;
 background-position-x: right;
-background-position-y: 88px;
+background-position-y: 90px;
 }
 
 .col-md-12{
     position: relative;
-    background: #ffffff;
+    background: rgb(36, 38, 38);
     height: 90px;
     width: 100%;
     top: 0px;
     left: 0px;
     margin: 0px;
-    border-bottom-color: #cccccc;
+    border-bottom-color: black;
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 6px;
     margin-bottom: 30px;
 }
 
@@ -34,7 +34,7 @@ header{
 }
 
 h1{
-    background: #4aaaa5;
+    background: black;
     width: 350px;
     height: 88px;
     font-size: 36px;
@@ -119,16 +119,16 @@ p{
 footer{
     position: fixed;
     bottom: 0;
-    background-color: #666666;
+    background-color: rgb(36, 38, 38);
     text-align: center;
     width: 100%;
     font-size: 12px;
     line-height: 40px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color: white;
     border-top-style: solid;
-    border-top-color: #4aaaa5;
+    border-top-color: black;
     border-top-width: 6px;
 
 }
@@ -185,7 +185,7 @@ input[type=button]:active{
     margin-left: 0;
     margin-top: 5px;
     float: left;
-    border: #4aaaa5 2px solid;
+    border: black 2px solid;
 }
 
 #wordguess a{
@@ -198,7 +198,7 @@ input[type=button]:active{
     bottom: 0px;
     width: 100%;
     padding: 20px;
-    background-color: rgba(1, 177, 174, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -220,7 +220,7 @@ input[type=button]:active{
     margin: 20px;
     margin-top: 5px;
     float: left;
-    border: #4aaaa5 2px solid;
+    border: black 2px solid;
 }
 
 #crystal a{
@@ -244,7 +244,7 @@ input[type=button]:active{
     margin: 20px;
     margin-left: 0;
     float: left;
-    border: #4aaaa5 2px solid;
+    border: black 2px solid;
 }
 
 #trivia:hover{
@@ -261,7 +261,7 @@ input[type=button]:active{
     height: 205px;
     margin: 20px;
     float: left;
-    border: #4aaaa5 2px solid;
+    border: black 2px solid;
 }
 
 #gifsearch:hover{
@@ -281,7 +281,7 @@ input[type=button]:active{
     margin: 20px;
     margin-left: 0;
     float: left;
-    border: #4aaaa5 2px solid;
+    border: black 2px solid;
 }
 
 #rpsgame:hover{
@@ -299,7 +299,7 @@ input[type=button]:active{
     height: 205px;
     margin: 20px;
     float: left;
-    border: #4aaaa5 2px solid;
+    border: black 2px solid;
 }
 
 #train:hover{
@@ -319,7 +319,7 @@ input[type=button]:active{
     margin: 20px;
     margin-left: 0;
     float: left;
-    border: #4aaaa5 2px solid;
+    border: black 2px solid;
 }
 
 #figgit:hover{
@@ -347,7 +347,6 @@ input[type=button]:active{
     .container{
         width: 100%;
         float: left;
-        margin-bottom: 90px;
     }
 
     h1{
@@ -424,7 +423,6 @@ input[type=button]:active{
         width: 90%;
         margin: 0 auto;
         float: none;
-        margin-bottom: 100px;
     }  
 
     #mypic{
@@ -447,6 +445,10 @@ input[type=button]:active{
     .nav{
         height: 60px;
         width: 100%;
+    }
+
+    body {
+        background-position-y: 150px;
     }
 
     ul {
@@ -480,7 +482,6 @@ input[type=button]:active{
     .container{
         position: relative;
         width: 95%;
-        margin-bottom: 100px;
     }
 
     #mypic{
