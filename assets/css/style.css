@@ -438,6 +438,43 @@ input[type=button]:active{
 #wordguessComm:hover{
     opacity: 0.4;
 }
+#Bamazon{
+    position: relative;
+    background-image:url('../images/bamazon.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-y: top;
+    width: 46%;
+    height: 205px;
+    margin: 20px;
+    float: left;
+    border: black 2px solid;
+}
+
+#Bamazon:hover{
+    opacity: 0.4;
+}
+
+#friendFinder {
+    clear: both;
+    position: relative;
+    background-image:url('../images/results.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-y: top;
+    width: 46%;
+    height: 205px;
+    margin: 20px;
+    margin-left: 0;
+    float: left;
+    border: black 2px solid;
+}
+
+#friendFinder:hover{
+    opacity: 0.4;
+}
 
 @media screen and (max-width: 980px){
 
@@ -665,6 +702,20 @@ input[type=button]:active{
     }
 
     #wordguessComm{
+        position: relative;
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #Bamazon{
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    #friendFinder{
         position: relative;
         float: none;
         width: 100%;
