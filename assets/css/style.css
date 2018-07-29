@@ -438,6 +438,7 @@ input[type=button]:active{
 #wordguessComm:hover{
     opacity: 0.4;
 }
+
 #Bamazon{
     position: relative;
     background-image:url('../images/bamazon.png');
@@ -473,6 +474,24 @@ input[type=button]:active{
 }
 
 #friendFinder:hover{
+    opacity: 0.4;
+}
+
+#burgerBuilder{
+    position: relative;
+    background-image:url('../images/burger.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-y: top;
+    width: 46%;
+    height: 205px;
+    margin: 20px;
+    float: left;
+    border: black 2px solid;
+}
+
+#burgerBuilder:hover{
     opacity: 0.4;
 }
 
@@ -551,6 +570,41 @@ input[type=button]:active{
     }
 
     #figgit{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #liri{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #wordguessComm{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #Bamazon{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #friendFinder{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #burgerBuilder{
         position: relative;
         float: left;
         width: 250px;
@@ -720,5 +774,13 @@ input[type=button]:active{
         float: none;
         width: 100%;
         margin-bottom: 5px;
+    }
+
+    #burgerBuilder {
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 25px;
     }
 } 
