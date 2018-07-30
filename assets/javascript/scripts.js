@@ -4,4 +4,8 @@ $(document).ready(function(){
         $("#topFrame").slideUp("slow");
     });
 
+    function myFunction() {
+    document.getElementById("contactForm").submit();
+    };
+
 });
