@@ -700,6 +700,10 @@ input[type=button]:active{
         text-decoration: none;
     }
 
+    header a {
+        text-decoration: none;
+    }
+
     .nav{
         height: 60px;
         width: 100%;
