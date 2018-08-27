@@ -274,11 +274,10 @@ input[type=button]:active{
     width: 100%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
-    font-size: 16px;
-    color: #ffffff;
-    letter-spacing: 4px;
+    color: white;
     text-align: center;
-    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
 
 #wordguess:hover{
@@ -311,7 +310,7 @@ input[type=button]:active{
 #trivia{
     clear: both;
     position: relative;
-    background-image:url('../images/start.png');
+    background-image:url('../images/trivia.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position-y: top;
@@ -366,7 +365,7 @@ input[type=button]:active{
 
 #train{
     position: relative;
-    background-image:url('../images/train2.png');
+    background-image:url('../images/train.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -461,7 +460,7 @@ input[type=button]:active{
 #friendFinder {
     clear: both;
     position: relative;
-    background-image:url('../images/friendfinder.png');
+    background-image:url('../images/results.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -493,6 +492,44 @@ input[type=button]:active{
 }
 
 #burgerBuilder:hover{
+    opacity: 0.4;
+}
+
+#rootProject {
+    clear: both;
+    position: relative;
+    background-image:url('../images/root.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-y: top;
+    width: 46%;
+    height: 205px;
+    margin: 20px;
+    margin-left: 0;
+    float: left;
+    border: black 2px solid;
+}
+
+#rootProject:hover{
+    opacity: 0.4;
+}
+
+#newscrape{
+    position: relative;
+    background-image:url('../images/newscrape.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-y: top;
+    width: 46%;
+    height: 205px;
+    margin: 20px;
+    float: left;
+    border: black 2px solid;
+}
+
+#newscrape:hover{
     opacity: 0.4;
 }
 
@@ -531,103 +568,136 @@ input[type=button]:active{
     #wordguess{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #crystal{
         position: relative;
-        float: left;
-        width: 350px;
+        float: right;
+        width: 250px;
         margin-right: 0;
     }
 
     #trivia{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #gifsearch{
         position: relative;
-        float: left;
-        width: 350px;
+        float: right;
+        width: 250px;
         margin-right: 0;
     }
 
     #rpsgame{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #train{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #figgit{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #liri{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #wordguessComm{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #Bamazon{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #friendFinder{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
         margin-right: 0;
     }
 
     #burgerBuilder{
         position: relative;
         float: left;
-        width: 350px;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #rootProject{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #newscrape{
+        position: relative;
+        float: left;
+        width: 250px;
         margin-right: 0;
     }
 }
 
-@media screen and (max-width: 820px){
-
-    h1 {
-    margin-left: 0;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
+@media screen and (max-width: 768px){
     header{
         position: static;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+    } 
+
+    .nav {
+        margin-right: 5px;
+    }
+    
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }  
+
+    #mypic{
+        width: 50%;
+    }
+
+    h1{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px){
+    header{
+        position: static;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
     }
 
     .nav{
@@ -759,6 +829,21 @@ input[type=button]:active{
     }
 
     #burgerBuilder {
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    #rootProject{
+        position: relative;
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #newscrape {
         position: relative;
         float: left;
         width: 100%;
