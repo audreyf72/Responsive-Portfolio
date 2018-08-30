@@ -462,7 +462,7 @@ input[type=button]:active{
 #friendFinder {
     clear: both;
     position: relative;
-    background-image:url('../images/results.png');
+    background-image:url('../images/friendfinder.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
