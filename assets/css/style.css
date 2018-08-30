@@ -535,6 +535,26 @@ input[type=button]:active{
     opacity: 0.4;
 }
 
+#pokemon {
+    clear: both;
+    position: relative;
+    background-image:url('../images/pokemon.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-y: top;
+    width: 46%;
+    height: 205px;
+    margin: 20px;
+    margin-left: 0;
+    float: left;
+    border: black 2px solid;
+}
+
+#pokemon:hover{
+    opacity: 0.4;
+}
+
 @media screen and (max-width: 980px){
 
     .fadeBox{
@@ -659,6 +679,13 @@ input[type=button]:active{
     }
 
     #newscrape{
+        position: relative;
+        float: left;
+        width: 250px;
+        margin-right: 0;
+    }
+
+    #pokemon{
         position: relative;
         float: left;
         width: 250px;
@@ -855,5 +882,12 @@ input[type=button]:active{
         width: 100%;
         margin-left: 0;
         margin-bottom: 25px;
+    }
+
+    #pokemon{
+        position: relative;
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
     }
 } 
