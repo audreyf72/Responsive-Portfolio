@@ -2,6 +2,25 @@
     box-sizing: border-box;
 }
 
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    width: 110px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.thankyou {
+    text-align: center;
+    font-size: 28px;
+    height: 90%;
+    line-height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .imageContainer {
     position: absolute;
     top: 90px;
@@ -590,137 +609,116 @@ input[type=button]:active{
     #wordguess{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #crystal{
         position: relative;
-        float: right;
-        width: 250px;
+        float: left;
+        width: 46%;
         margin-right: 0;
     }
 
     #trivia{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #gifsearch{
         position: relative;
-        float: right;
-        width: 250px;
+        float: left;
+        width: 46%;
         margin-right: 0;
     }
 
     #rpsgame{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #train{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #figgit{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #liri{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #wordguessComm{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #Bamazon{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #friendFinder{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #burgerBuilder{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #rootProject{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #newscrape{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 
     #pokemon{
         position: relative;
         float: left;
-        width: 250px;
+        width: 46%;
         margin-right: 0;
     }
 }
 
-@media screen and (max-width: 768px){
-    header{
-        position: static;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    } 
+@media screen and (max-width: 775px){
 
-    .nav {
-        margin-right: 5px;
-    }
-    
-    .container{
-        width: 90%;
-        margin: 0 auto;
-        float: none;
-    }  
-
-    #mypic{
-        width: 50%;
+    h1 {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
-    h1{
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 640px){
     header{
         position: static;
         width: 100%;
