@@ -16,8 +16,9 @@
 .thankyou {
     text-align: center;
     font-size: 28px;
-    height: 90%;
-    line-height: 350px;
+    height: 250px;
+    margin-top: 150px;
+    line-height: 150%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
