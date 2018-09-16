@@ -1,14 +1,11 @@
-var nodemailer = require('nodemailer');
+var express = require('express')
+var app = express()
+
+app.get('/', function (req, res) {
+  res.send('../index.html')
+})
 
 $(document).ready(function(){
-
-    var transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-               user: 'audreydesigns@gmail.com',
-               pass: 'kkcanon247'
-           }
-       });
 
     $("#mainContent").click(function(){
         $("#topFrame").slideUp("slow");

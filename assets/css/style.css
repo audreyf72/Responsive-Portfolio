@@ -575,6 +575,24 @@ input[type=button]:active{
     opacity: 0.4;
 }
 
+#nytreact{
+    position: relative;
+    background-image:url('../images/nyt.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-position-y: top;
+    width: 46%;
+    height: 205px;
+    margin: 20px;
+    float: left;
+    border: black 2px solid;
+}
+
+#nytreact:hover{
+    opacity: 0.4;
+}
+
 @media screen and (max-width: 980px){
 
     .fadeBox{
@@ -706,6 +724,13 @@ input[type=button]:active{
     }
 
     #pokemon{
+        position: relative;
+        float: left;
+        width: 46%;
+        margin-right: 0;
+    }
+
+    #nytreact{
         position: relative;
         float: left;
         width: 46%;
@@ -884,6 +909,13 @@ input[type=button]:active{
     }
 
     #pokemon{
+        position: relative;
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #nytreact{
         position: relative;
         float: none;
         width: 100%;
